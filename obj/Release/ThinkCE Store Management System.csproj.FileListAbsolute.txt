@@ -1,0 +1,177 @@
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.SuggestedBindingRedirects.cache
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.exe.config
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.Reports.Sales_Reports_Detail_Admin_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Reports.Stock_Report_Detail_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.Reports.Transaction_Report_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Supplier.Supplier_Details_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Supplier.Supplier_Info_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Supplier.Supplier_Order_Admin_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.Transactions.Transactions_Main_Admin_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Main_Admin_Dashboard.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Products.Products_Main_Admin_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Report_Main_Admin_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.STAFF.Main_Admin_Staff_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Add_User_Auth_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.app_init.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Login_User_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Main_Users_Auth_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Update_User_Auth_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Users_Details_Auth_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Branch.Branch_Configuration_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.HomeDashboard.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.Properties.Resources.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Add_Product_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Products_Dashboard_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Products_Details_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Products_Update_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Main_Report_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Report_Details_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Stock_Reports.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Transaction_Report_Details_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Sales.Sales_Main_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Standard_User_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Add_Supplier_Order_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Add_Supplier_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Suppliers_Details_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier_Main_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Update_Supplier_Order.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Transactions.Transactions_UI.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Transactions.Transaction_Full_Screen.resources
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.GenerateResource.cache
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.CoreCompileInputs.cache
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\x86\sqlite3.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\x64\sqlite3.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\DB\database.db
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ThinkCE Store Management System.exe.config
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ThinkCE Store Management System.exe
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ThinkCE Store Management System.pdb
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.DirectShow.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.SqlServer.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\FontAwesome.Sharp.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\Guna.UI2.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.WinForms.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.Wpf.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\MySql.Data.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.EF6.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.Linq.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\USB-Barcode-Scanner.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.presentation.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\Google.Protobuf.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ZstdNet.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\K4os.Compression.LZ4.Streams.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\BouncyCastle.Crypto.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\Ubiety.Dns.Core.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Memory.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Buffers.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\K4os.Compression.LZ4.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\K4os.Hash.xxHash.dll
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.DirectShow.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.SqlServer.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.pdb
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.WinForms.pdb
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.WinForms.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.Wpf.pdb
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.Wpf.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\MySql.Data.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.presentation.xml
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.CopyComplete
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.exe
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.pdb
+D:\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.AssemblyReference.cache
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\x86\sqlite3.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\x64\sqlite3.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\DB\database.db
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ThinkCE Store Management System.exe.config
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ThinkCE Store Management System.exe
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\ThinkCE Store Management System.pdb
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.DirectShow.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.SqlServer.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\FontAwesome.Sharp.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\Guna.UI2.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.WinForms.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.Wpf.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\MySql.Data.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.EF6.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.Linq.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\USB-Barcode-Scanner.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.presentation.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Buffers.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Numerics.Vectors.dll
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\AForge.Video.DirectShow.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\EntityFramework.SqlServer.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.pdb
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.WinForms.pdb
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.WinForms.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.Wpf.pdb
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\LiveCharts.Wpf.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\System.Data.SQLite.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\bin\Release\zxing.presentation.xml
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.AssemblyReference.cache
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.SuggestedBindingRedirects.cache
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.exe.config
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.Reports.Sales_Reports_Detail_Admin_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Reports.Stock_Report_Detail_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.Reports.Transaction_Report_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Supplier.Supplier_Details_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Supplier.Supplier_Info_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Supplier.Supplier_Order_Admin_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.Transactions.Transactions_Main_Admin_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Main_Admin_Dashboard.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Products.Products_Main_Admin_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.Report_Main_Admin_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.MAIN_ADMIN.UI.STAFF.Main_Admin_Staff_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Add_User_Auth_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.app_init.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Login_User_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Main_Users_Auth_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Update_User_Auth_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Auth.Users_Details_Auth_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Branch.Branch_Configuration_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.DashboardUI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.HomeDashboard.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.Properties.Resources.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Add_Product_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Products_Dashboard_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Products_Details_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Products.Products_Update_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Main_Report_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Report_Details_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Stock_Reports.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Reports.Transaction_Report_Details_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Sales.Sales_Main_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Standard_User_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Add_Supplier_Order_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Add_Supplier_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Suppliers_Details_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier_Main_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Supplier.Update_Supplier_Order.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Transactions.Transactions_UI.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE_Store_Management_System.UI.Transactions.Transaction_Full_Screen.resources
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.GenerateResource.cache
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.CoreCompileInputs.cache
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.csproj.CopyComplete
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.exe
+D:\AndroidJavaApps\C-Sharp\ThinkCE Store Management System\ThinkCE Store Management System\obj\Release\ThinkCE Store Management System.pdb

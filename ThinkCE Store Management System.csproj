@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\SQLite.3.13.0\build\net45\SQLite.props" Condition="Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E039C80E-9F91-4680-AE1F-E3F3F411F671}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ThinkCE_Store_Management_System</RootNamespace>
+    <AssemblyName>ThinkCE Store Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.32.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\ThinkCE Technologies\Desktop\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USB-Barcode-Scanner">
+      <HintPath>C:\Users\ThinkCE Technologies\Desktop\USB-Barcode-Scanner.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="zxing, Version=0.16.7.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.7\lib\net47\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.7.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.7\lib\net47\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONFIGURATIONS\ConnectionConf.cs" />
+    <Compile Include="CONFIGURATIONS\DGVPrinter.cs" />
+    <Compile Include="DATABASE HELPER\Auth\AuthDatabaseHelper.cs" />
+    <Compile Include="DATABASE HELPER\Auth\InitAppDatabaseHelper.cs" />
+    <Compile Include="DATABASE HELPER\GeneralDatabaseOnlineHelper.cs" />
+    <Compile Include="DATABASE HELPER\Products\ProductsOnlineDatabaseHelper.cs" />
+    <Compile Include="DATABASE HELPER\ReportSummaryOnlineDBHelper.cs" />
+    <Compile Include="DATABASE HELPER\Sales\SalesAndTransactionsOnlineDatabaseHelper.cs" />
+    <Compile Include="DATABASE HELPER\Stock\StockReportOnlineDBHelper.cs" />
+    <Compile Include="DATABASE HELPER\SupplierOnlineDBHelper.cs" />
+    <Compile Include="DATABASE HELPER\VendorDetailOnlineDBHelper.cs" />
+    <Compile Include="GETTERS AND SETTERS\Auth\AuthGetterAndSettter.cs" />
+    <Compile Include="GETTERS AND SETTERS\Auth\Ini_App_Getter_Setter.cs" />
+    <Compile Include="GETTERS AND SETTERS\Products\ProductsGetterAndSetter.cs" />
+    <Compile Include="GETTERS AND SETTERS\Sales\SalesGetterAndSetter.cs" />
+    <Compile Include="GETTERS AND SETTERS\Suppliers\SuppliersGetterAndSetter.cs" />
+    <Compile Include="GETTERS AND SETTERS\Suppliers\VendorDetailsGS.cs" />
+    <Compile Include="MAIN ADMIN\UI\Reports\Sales_Reports_Detail_Admin_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Sales_Reports_Detail_Admin_UI.Designer.cs">
+      <DependentUpon>Sales_Reports_Detail_Admin_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Stock_Report_Detail_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Stock_Report_Detail_UI.Designer.cs">
+      <DependentUpon>Stock_Report_Detail_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Transaction_Report_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Transaction_Report_UI.Designer.cs">
+      <DependentUpon>Transaction_Report_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Supplier\Supplier_Details_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Supplier\Supplier_Details_UI.Designer.cs">
+      <DependentUpon>Supplier_Details_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Supplier\Supplier_Info_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Supplier\Supplier_Info_UI.Designer.cs">
+      <DependentUpon>Supplier_Info_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Supplier\Supplier_Order_Admin_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Supplier\Supplier_Order_Admin_UI.Designer.cs">
+      <DependentUpon>Supplier_Order_Admin_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Transactions\Transactions_Main_Admin_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Transactions\Transactions_Main_Admin_UI.Designer.cs">
+      <DependentUpon>Transactions_Main_Admin_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Main_Admin_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Main_Admin_Dashboard.Designer.cs">
+      <DependentUpon>Main_Admin_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Products\Products_Main_Admin_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Products\Products_Main_Admin_UI.Designer.cs">
+      <DependentUpon>Products_Main_Admin_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Report_Main_Admin_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\Reports\Report_Main_Admin_UI.Designer.cs">
+      <DependentUpon>Report_Main_Admin_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\STAFF\Main_Admin_Staff_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAIN ADMIN\UI\STAFF\Main_Admin_Staff_UI.Designer.cs">
+      <DependentUpon>Main_Admin_Staff_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLITE DATABASE HELPER\GeneralLocalDatabaseHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\InitAppSqliteDatabaseHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\ProductsSqliteDatabaseHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\ReportSummaryLocalDBHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\SalesAndTransactionsSqliteDatabaseHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\StockReportsDBHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\SupplierLocalDatabaseHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\UsersSqliteDatabaseHelper.cs" />
+    <Compile Include="SQLITE DATABASE HELPER\VendorDetailLocalDBHelper.cs" />
+    <Compile Include="UI\Auth\Add_User_Auth_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Auth\Add_User_Auth_UI.Designer.cs">
+      <DependentUpon>Add_User_Auth_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Auth\app_init.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Auth\app_init.Designer.cs">
+      <DependentUpon>app_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Auth\Login_User_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Auth\Login_User_UI.Designer.cs">
+      <DependentUpon>Login_User_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Auth\Main_Users_Auth_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Auth\Main_Users_Auth_UI.Designer.cs">
+      <DependentUpon>Main_Users_Auth_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Auth\Update_User_Auth_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Auth\Update_User_Auth_UI.Designer.cs">
+      <DependentUpon>Update_User_Auth_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Auth\Users_Details_Auth_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Auth\Users_Details_Auth_UI.Designer.cs">
+      <DependentUpon>Users_Details_Auth_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Branch\Branch_Configuration_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Branch\Branch_Configuration_UI.Designer.cs">
+      <DependentUpon>Branch_Configuration_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DashboardUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DashboardUI.Designer.cs">
+      <DependentUpon>DashboardUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HomeDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HomeDashboard.Designer.cs">
+      <DependentUpon>HomeDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Products\Add_Product_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Products\Add_Product_UI.Designer.cs">
+      <DependentUpon>Add_Product_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Products\Products_Dashboard_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Products\Products_Dashboard_UI.Designer.cs">
+      <DependentUpon>Products_Dashboard_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Products\Products_Details_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Products\Products_Details_UI.Designer.cs">
+      <DependentUpon>Products_Details_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Products\Products_Update_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Products\Products_Update_UI.Designer.cs">
+      <DependentUpon>Products_Update_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Reports\Main_Report_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Reports\Main_Report_UI.Designer.cs">
+      <DependentUpon>Main_Report_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Reports\Report_Details_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Reports\Report_Details_UI.Designer.cs">
+      <DependentUpon>Report_Details_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Reports\Stock_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Reports\Stock_Reports.Designer.cs">
+      <DependentUpon>Stock_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Reports\Transaction_Report_Details_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Reports\Transaction_Report_Details_UI.Designer.cs">
+      <DependentUpon>Transaction_Report_Details_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Sales\Sales_Main_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Sales\Sales_Main_UI.Designer.cs">
+      <DependentUpon>Sales_Main_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Standard_User_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Standard_User_UI.Designer.cs">
+      <DependentUpon>Standard_User_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Supplier\Add_Supplier_Order_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Supplier\Add_Supplier_Order_UI.Designer.cs">
+      <DependentUpon>Add_Supplier_Order_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Supplier\Add_Supplier_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Supplier\Add_Supplier_UI.Designer.cs">
+      <DependentUpon>Add_Supplier_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Supplier\Suppliers_Details_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Supplier\Suppliers_Details_UI.Designer.cs">
+      <DependentUpon>Suppliers_Details_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Supplier\Supplier_Main_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Supplier\Supplier_Main_UI.Designer.cs">
+      <DependentUpon>Supplier_Main_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Supplier\Update_Supplier_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Supplier\Update_Supplier_Order.Designer.cs">
+      <DependentUpon>Update_Supplier_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Transactions\Transactions_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transactions\Transactions_UI.Designer.cs">
+      <DependentUpon>Transactions_UI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Transactions\Transaction_Full_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transactions\Transaction_Full_Screen.Designer.cs">
+      <DependentUpon>Transaction_Full_Screen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Reports\Sales_Reports_Detail_Admin_UI.resx">
+      <DependentUpon>Sales_Reports_Detail_Admin_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Reports\Stock_Report_Detail_UI.resx">
+      <DependentUpon>Stock_Report_Detail_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Reports\Transaction_Report_UI.resx">
+      <DependentUpon>Transaction_Report_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Supplier\Supplier_Details_UI.resx">
+      <DependentUpon>Supplier_Details_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Supplier\Supplier_Info_UI.resx">
+      <DependentUpon>Supplier_Info_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Supplier\Supplier_Order_Admin_UI.resx">
+      <DependentUpon>Supplier_Order_Admin_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Transactions\Transactions_Main_Admin_UI.resx">
+      <DependentUpon>Transactions_Main_Admin_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Main_Admin_Dashboard.resx">
+      <DependentUpon>Main_Admin_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Products\Products_Main_Admin_UI.resx">
+      <DependentUpon>Products_Main_Admin_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\Reports\Report_Main_Admin_UI.resx">
+      <DependentUpon>Report_Main_Admin_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN ADMIN\UI\STAFF\Main_Admin_Staff_UI.resx">
+      <DependentUpon>Main_Admin_Staff_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Auth\Add_User_Auth_UI.resx">
+      <DependentUpon>Add_User_Auth_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Auth\app_init.resx">
+      <DependentUpon>app_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Auth\Login_User_UI.resx">
+      <DependentUpon>Login_User_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Auth\Main_Users_Auth_UI.resx">
+      <DependentUpon>Main_Users_Auth_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Auth\Update_User_Auth_UI.resx">
+      <DependentUpon>Update_User_Auth_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Auth\Users_Details_Auth_UI.resx">
+      <DependentUpon>Users_Details_Auth_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Branch\Branch_Configuration_UI.resx">
+      <DependentUpon>Branch_Configuration_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DashboardUI.resx">
+      <DependentUpon>DashboardUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HomeDashboard.resx">
+      <DependentUpon>HomeDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\Products\Add_Product_UI.resx">
+      <DependentUpon>Add_Product_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Products\Products_Dashboard_UI.resx">
+      <DependentUpon>Products_Dashboard_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Products\Products_Details_UI.resx">
+      <DependentUpon>Products_Details_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Products\Products_Update_UI.resx">
+      <DependentUpon>Products_Update_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Reports\Main_Report_UI.resx">
+      <DependentUpon>Main_Report_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Reports\Report_Details_UI.resx">
+      <DependentUpon>Report_Details_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Reports\Stock_Reports.resx">
+      <DependentUpon>Stock_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Reports\Transaction_Report_Details_UI.resx">
+      <DependentUpon>Transaction_Report_Details_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Sales\Sales_Main_UI.resx">
+      <DependentUpon>Sales_Main_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Standard_User_UI.resx">
+      <DependentUpon>Standard_User_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Supplier\Add_Supplier_Order_UI.resx">
+      <DependentUpon>Add_Supplier_Order_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Supplier\Add_Supplier_UI.resx">
+      <DependentUpon>Add_Supplier_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Supplier\Suppliers_Details_UI.resx">
+      <DependentUpon>Suppliers_Details_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Supplier\Supplier_Main_UI.resx">
+      <DependentUpon>Supplier_Main_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Supplier\Update_Supplier_Order.resx">
+      <DependentUpon>Update_Supplier_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transactions\Transactions_UI.resx">
+      <DependentUpon>Transactions_UI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transactions\Transaction_Full_Screen.resx">
+      <DependentUpon>Transaction_Full_Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DB\database.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worker100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imsi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1270901360-170667a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-155438989-170667a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MAIN ADMIN\ADMIN DB HELPER\" />
+    <Folder Include="MAIN ADMIN\GETTER AND SETTER\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLite.3.13.0\build\net45\SQLite.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>
